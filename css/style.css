@@ -116,20 +116,17 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   margin: 0;
   font-weight: 400;
   margin-top: 100px; }
   h1.lg-heading,
   h2.lg-heading,
-  h3.lg-heading,
-  h4.lg-heading {
+  h3.lg-heading {
     font-size: 6rem; }
   h1.sm-heading,
   h2.sm-heading,
-  h3.sm-heading,
-  h4.sm-heading {
+  h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
@@ -185,6 +182,10 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+    .about-info .job h4 {
+      margin: 0 auto; }
+    .about-info .job i {
+      padding: 0.7rem; }
 
 .projects {
   display: grid;

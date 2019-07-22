@@ -19,8 +19,8 @@ body {
 // Headings
 h1,
 h2,
-h3,
-h4 {
+h3
+{
   margin: 0;
   font-weight: 400;
   margin-top: 100px;
@@ -114,6 +114,12 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    h4{
+      margin: 0 auto;
+    }
+    i{
+      padding: 0.7rem;
+    }
   }
 }
 
