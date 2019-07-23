@@ -1,6 +1,0 @@
-{
-    "require": {
-        "symfony/var-dumper": "^4.3",
-        "swiftmailer/swiftmailer": "^6.0"
-    }
-}
