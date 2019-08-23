@@ -88,11 +88,13 @@
       }
   
       .portrait {
-        width: 250px;
+        width: 140px;
         height: 250px;
-        background: url("../img/toto2.jpg");
-        border-radius: 50%;
+        background: url("../img/toto.jpg");
+        
         border: solid 3px $secondary-color;
+        background-repeat: no-repeat;
+        background-position: center;
       }
     }
   
